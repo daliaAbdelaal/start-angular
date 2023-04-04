@@ -1,0 +1,62 @@
+h2
+{
+        font-size: 3rem;
+        line-height: 2.5rem;
+        color: #2C3E50;
+}
+i
+{
+        font-size: 30px;
+}
+.icon
+{
+        position: relative;    
+}
+.icon::before
+{
+        content: "";
+        position: absolute;
+        width: 7rem;
+        height: .25rem;
+        background-color: #2C3E50;
+        top: 50%;
+        right:53%;
+}
+.icon::after
+{
+        content: "";
+        position: absolute;
+        width: 7rem;
+        height: .25rem;
+        background-color: #2C3E50;
+        top: 50%;
+        left:53%;
+}
+input,textarea
+{
+        border: none;
+        outline: none;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ccc;
+}
+input::placeholder,textarea::placeholder
+{
+        font-size: 22px;
+}
+button
+{
+        background-color: #1ABC9C;
+        color: #fff;
+        padding: 1rem 1.75rem;
+        font-size: 1.25rem;
+        border-radius: 10px;
+}
+
+@media screen and (max-width:991px) {
+        h2
+        {
+         font-size: 2.25rem;
+        }
+     
+    }

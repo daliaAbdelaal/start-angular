@@ -1,0 +1,52 @@
+.start
+{
+        background-color: #1ABC9C;
+        color: #fff;
+}
+h1
+{
+        font-size: 4rem;
+        line-height: 3.5rem;
+}
+.start img
+{
+        width: 15rem;
+}
+i
+{
+        font-size: 30px;
+}
+.icon
+{
+        position: relative;    
+}
+.icon::before
+{
+        content: "";
+        position: absolute;
+        width: 7rem;
+        height: .25rem;
+        background-color: #fff;
+        top: 50%;
+        right:53%;
+}
+.icon::after
+{
+        content: "";
+        position: absolute;
+        width: 7rem;
+        height: .25rem;
+        background-color: #fff;
+        top: 50%;
+        left:53%;
+}
+p
+{
+        font-size: 1.5rem;
+}
+@media screen and (max-width:991px) {
+       h1{
+        font-size: 2.75rem;
+
+       }
+}

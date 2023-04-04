@@ -1,0 +1,49 @@
+.about
+{
+        background-color: #1ABC9C;
+        color: #fff;
+}
+h2
+{
+        font-size: 3rem;
+        line-height: 2.5rem;
+}
+i
+{
+        font-size: 30px;
+}
+.icon
+{
+        position: relative;    
+}
+.icon::before
+{
+        content: "";
+        position: absolute;
+        width: 7rem;
+        height: .25rem;
+        background-color: #fff;
+        top: 50%;
+        right:53%;
+}
+.icon::after
+{
+        content: "";
+        position: absolute;
+        width: 7rem;
+        height: .25rem;
+        background-color: #fff;
+        top: 50%;
+        left:53%;
+}
+p
+{
+        font-size: 1.25rem;
+        font-weight: 400;
+}
+@media screen and (max-width:991px) {
+        h2
+        {
+         font-size: 2.25rem;
+        }
+    }

@@ -1,0 +1,45 @@
+.navbar
+{
+        background-color: #2C3E50;
+        font-weight: 700;
+       
+}
+.navbar-toggler-icon
+{
+        background-image: none;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 600;
+        background-color: #1abc9c;
+        padding: 15px 40px 30px;
+        border-radius: 8px;
+        text-align: center;
+}
+
+.navbar a
+{
+        color: #fff;
+}
+.nav-link
+{
+       color: #1abc9c;
+       font-size: 17px;
+       transition: all .3s;
+}
+.nav-link:hover
+{
+        color: #1abc9c !important;
+}
+.navbar-brand
+{
+        font-size: 1.5em;
+}
+.link-active
+{
+        background-color: #1abc9c;
+        border-radius: 8px;
+}
+.link-active:hover
+{
+        color: #fff !important;
+}
